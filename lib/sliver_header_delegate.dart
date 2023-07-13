@@ -65,7 +65,7 @@ class FlexibleHeaderDelegate extends SliverPersistentHeaderDelegate {
           Container(
             height: visibleMainHeight,
             padding: EdgeInsets.only(top: statusBarHeight),
-            color: backgroundColor ?? Theme.of(context).appBarTheme.color,
+            color: backgroundColor ?? Theme.of(context).appBarTheme.backgroundColor,
             child: Stack(
               fit: StackFit.expand,
               children: [
